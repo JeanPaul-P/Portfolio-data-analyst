@@ -10,10 +10,10 @@ Ce portfolio présente plusieurs projets que j’ai réalisés pour approfondir 
 
 📂 Projets disponibles
 
-| Projet | Description | Lien |
-|--------|-------------|------|
-| 📊 [Projet Notation Crédit](./projet-notation-credit) | Évaluation du risque de crédit des entreprises à partir de leurs ratios financiers. | [`Lien vers le dossier`](./projet-notation-credit) |
-| 💼 [Projet_Rentabilité Produit](./projet-rentabilite-produit) | Étude de la rentabilité des produits dans une base commerciale fictive. | [`Lien vers le dossier`](./projet-adventureworks-profitabilite) |
+| Projet | Description | 
+|--------|-------------|
+| 📊 [Projet Notation Crédit](./projet-notation-credit) | Évaluation du risque de crédit des entreprises à partir de leurs ratios financiers. | 
+| 💼 [Projet_Rentabilité Produit](./projet-rentabilite-produit) | Étude de la rentabilité des produits dans une base commerciale fictive. | 
 
 ---
 
