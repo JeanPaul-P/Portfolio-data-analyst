@@ -1,0 +1,52 @@
+L'exécution est terminée
+
+- Initialisation de la tâche de flux de données (Success)
+
+- Initialisation des connexions (Success)
+
+- Définition de la commande SQL (Success)
+
+- Définition de la connexion source (Success)
+
+- Définition de la connexion de destination (Success)
+
+- Validation (Error)
+	Messages
+	* Erreur 0xc02020f6: Tâche de flux de données 1: Impossible de convertir la colonne « Rating Agency » en raison de types de données de chaîne Unicode et non-Unicode.
+	 (Assistant Importation et Exportation SQL Server)
+	
+	* Erreur 0xc02020f6: Tâche de flux de données 1: Impossible de convertir la colonne « Corporation » en raison de types de données de chaîne Unicode et non-Unicode.
+	 (Assistant Importation et Exportation SQL Server)
+	
+	* Erreur 0xc02020f6: Tâche de flux de données 1: Impossible de convertir la colonne « Rating » en raison de types de données de chaîne Unicode et non-Unicode.
+	 (Assistant Importation et Exportation SQL Server)
+	
+	* Erreur 0xc02020f6: Tâche de flux de données 1: Impossible de convertir la colonne « CIK » en raison de types de données de chaîne Unicode et non-Unicode.
+	 (Assistant Importation et Exportation SQL Server)
+	
+	* Erreur 0xc02020f6: Tâche de flux de données 1: Impossible de convertir la colonne « Binary Rating » en raison de types de données de chaîne Unicode et non-Unicode.
+	 (Assistant Importation et Exportation SQL Server)
+	
+	* Erreur 0xc02020f6: Tâche de flux de données 1: Impossible de convertir la colonne « SIC Code » en raison de types de données de chaîne Unicode et non-Unicode.
+	 (Assistant Importation et Exportation SQL Server)
+	
+	* Erreur 0xc02020f6: Tâche de flux de données 1: Impossible de convertir la colonne « Sector » en raison de types de données de chaîne Unicode et non-Unicode.
+	 (Assistant Importation et Exportation SQL Server)
+	
+	* Erreur 0xc02020f6: Tâche de flux de données 1: Impossible de convertir la colonne « Ticker » en raison de types de données de chaîne Unicode et non-Unicode.
+	 (Assistant Importation et Exportation SQL Server)
+	
+	* Erreur 0xc004706b: Tâche de flux de données 1: Échec de la validation de « Destination - corporateCreditRatingWithFinancialRatios ». État de validation retourné : « VS_ISBROKEN ».
+	 (Assistant Importation et Exportation SQL Server)
+	
+	* Erreur 0xc004700c: Tâche de flux de données 1: Désolé... Nous n’avons pas pu valider un ou de plusieurs composants.
+	 (Assistant Importation et Exportation SQL Server)
+	
+	* Erreur 0xc0024107: Tâche de flux de données 1: Des erreurs se sont produites au cours de la validation de la tâche.
+	 (Assistant Importation et Exportation SQL Server)
+	
+
+- Enregistrement en cours (Success)
+
+
+

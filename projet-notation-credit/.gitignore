@@ -1,0 +1,35 @@
+# Fichiers système / cache
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# OneDrive
+*.tmp
+*.lnk
+~$*
+*.bak
+*.swp
+
+# Python
+__pycache__/
+*.pyc
+*.ipynb_checkpoints
+*.pyo
+*.pyd
+.env
+.venv
+
+# VSCode
+.vscode/
+
+# Excel ou fichiers temporaires
+*.xlsx
+*.xlsb
+*.xlsm
+*.~*
+*.log
+
+# Supprimer les fichiers compilés Python
+find . -name "*.pyc" -delete
+# Supprimer les caches
+find . -name "__pycache__" -type d -exec rm -r {} +
