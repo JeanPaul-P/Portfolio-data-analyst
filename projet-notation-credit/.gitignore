@@ -1,0 +1,41 @@
+# Fichiers système / cache
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Fichiers OneDrive / Windows temporaires
+*.tmp
+*.lnk
+~$*
+*.bak
+*.swp
+*.log
+
+# Python / Jupyter
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.ipynb_checkpoints
+.env
+.venv
+
+# VSCode
+.vscode/
+
+# Fichiers Excel ou Power BI
+*.xlsx
+*.xls
+*.xlsb
+*.xlsm
+*.~*
+
+# Power BI (fichiers de cache ou fichiers trop lourds)
+*.pbix~
+*.tmp.pbix
+
+# Autres formats lourds à éviter en versionnée
+*.zip
+*.tar.gz
+*.rar
+*.7z
