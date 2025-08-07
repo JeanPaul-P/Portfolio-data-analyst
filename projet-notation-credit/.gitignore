@@ -3,33 +3,39 @@
 Thumbs.db
 desktop.ini
 
-# OneDrive
+# Fichiers OneDrive / Windows temporaires
 *.tmp
 *.lnk
 ~$*
 *.bak
 *.swp
+*.log
 
-# Python
+# Python / Jupyter
 __pycache__/
 *.pyc
-*.ipynb_checkpoints
 *.pyo
 *.pyd
+*.ipynb_checkpoints
 .env
 .venv
 
 # VSCode
 .vscode/
 
-# Excel ou fichiers temporaires
+# Fichiers Excel ou Power BI
 *.xlsx
+*.xls
 *.xlsb
 *.xlsm
 *.~*
-*.log
 
-# Supprimer les fichiers compilés Python
-find . -name "*.pyc" -delete
-# Supprimer les caches
-find . -name "__pycache__" -type d -exec rm -r {} +
+# Power BI (fichiers de cache ou fichiers trop lourds)
+*.pbix~
+*.tmp.pbix
+
+# Autres formats lourds à éviter en versionnée
+*.zip
+*.tar.gz
+*.rar
+*.7z
