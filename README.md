@@ -21,7 +21,7 @@ Ce portfolio présente plusieurs projets que j’ai réalisés pour approfondir 
 
 Si tu veux consulter une page d’accueil de mon portfolio en ligne :
 
-👉 [https://ton-utilisateur.github.io/nom-du-repo](https://jeanpaul-p.github.io/Portfolio-data-analyst/)
+👉 [Portfolio de Jean-Paul](https://jeanpaul-p.github.io/Portfolio-data-analyst/)
 
 ---
 
