@@ -1,5 +1,3 @@
-Mon Portfolio Data Analyst
-
 🙋 Présentation
 
 Bonjour ! Je m'appelle Jean-Paul POKAME, passionné par l'analyse de données et la transformation des insights en actions concrètes.  
@@ -21,7 +19,7 @@ Ce portfolio présente plusieurs projets que j’ai réalisés pour approfondir 
 
 Si tu veux consulter une page d’accueil de mon portfolio en ligne :
 
-👉 [Portfolio de Jean-Paul](https://jeanpaul-p.github.io/Portfolio-data-analyst/)
+👉 [Portfolio de Jean-Paul.](https://jeanpaul-p.github.io/Portfolio-data-analyst/)
 
 ---
 
