@@ -1,4 +1,5 @@
-<!DOCTYPE html>
+
+  <!DOCTYPE html>
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
@@ -6,24 +7,23 @@
   <title>Portfolio Data Analyst</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <style>
-    * {margin: 0; padding: 0; box-sizing: border-box; font-family: "Poppins", sans-serif;}
-    body {background: #f5f6fa; color: #333; line-height: 1.6;}
-    header {background: #192578; color: #fff; padding: 1em 2em; display: flex; justify-content: space-between; align-items: center;}
-    header h1 {font-size: 1.4rem;}
-    header nav a {color: #fff; margin-left: 1em; text-decoration: none; font-weight: 500; transition: color 0.3s; padding: 0.6em 1.2em; border-radius: 6px; background: #192578;}
-    header nav a:hover {background: #F4A261; color: #fff;}
-    main {max-width: 1200px; margin: auto; padding: 2em;}
-    .projects {display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 2em;}
-    .project-card {background: #fff; border-radius: 12px; padding: 2em; box-shadow: 0 4px 12px rgba(0,0,0,0.08); transition: transform 0.3s ease, box-shadow 0.3s ease;}
-    .project-card:hover {transform: translateY(-8px); box-shadow: 0 8px 20px rgba(0,0,0,0.15);}
-    .project-card h2 {margin-bottom: 0.5em; color: #192578;}
-    .button {display: inline-block; background: #192578; color: #fff; padding: 0.6em 1.2em; border-radius: 6px; text-decoration: none; font-weight: 500; transition: background 0.3s;}
-    .button:hover {background: #F4A261;}
-    footer {text-align: center; padding: 1.5em; background: #192578; color: #fff; margin-top: 2em; font-size: 0.9rem;}
+    * {margin:0; padding:0; box-sizing:border-box; font-family:"Poppins", sans-serif;}
+    html, body {height:100%;}
+    body {background:#f5f6fa; display:flex; flex-direction:column; color:#333; line-height:1.6;}
+    header {background:#192578; color:#fff; padding:2em 1em; text-align:center;}
+    header h1 {font-size:3rem; margin-bottom:0.5em;}
+    header nav a {color:#fff; text-decoration:none; font-weight:500; transition:background 0.3s; padding:0.6em 1.2em; border-radius:6px; background:#192578;}
+    header nav a:hover {background:#F4A261;}
+    main {flex:1; max-width:1200px; margin:auto; padding:2em; display:grid; grid-template-columns:repeat(auto-fit, minmax(350px, 1fr)); gap:2em;}
+    .project-card {background:#fff; border-radius:12px; padding:2em; box-shadow:0 4px 12px rgba(0,0,0,0.08); transition:transform 0.3s ease, box-shadow 0.3s ease;}
+    .project-card:hover {transform:translateY(-8px); box-shadow:0 8px 20px rgba(0,0,0,0.15);}
+    .project-card h2 {margin-bottom:0.5em; color:#192578;}
+    .button {display:inline-block; background:#192578; color:#fff; padding:0.6em 1.2em; border-radius:6px; text-decoration:none; font-weight:500; transition:background 0.3s;}
+    .button:hover {background:#F4A261;}
+    footer {text-align:center; padding:1.5em; background:#192578; color:#fff; font-size:0.9rem;}
   </style>
 </head>
 <body>
-  <!-- HEADER -->
   <header>
     <h1>Portfolio - Data Analyst</h1>
     <nav>
@@ -31,14 +31,12 @@
     </nav>
   </header>
 
-  <!-- ACCUEIL -->
-  <main class="projects">
+  <main>
     <div class="project-card">
       <h2>📌 Projet Notation Crédit</h2>
       <p>Analyse et évaluation du risque de crédit avec Excel, Python et Power BI.</p>
       <a class="button" href="projet-notation-credit/index.html">Voir le projet</a>
     </div>
-
     <div class="project-card">
       <h2>📌 Projet Analyse des ventes</h2>
       <p>Tableau de bord interactif pour suivre la performance commerciale (SQL + Power BI).</p>
@@ -46,7 +44,6 @@
     </div>
   </main>
 
-  <!-- FOOTER -->
   <footer>
     <p>© 2025 – Jean-Paul POKAME | Portfolio Data Analysis</p>
   </footer>
