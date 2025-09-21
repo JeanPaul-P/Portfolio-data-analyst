@@ -2,81 +2,37 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
-  <title>Dashboard Power BI – JeanPaul-P</title>
+  <title>Projet Analyse des ventes – Jean-Paul POKAME</title>
   <link rel="icon" href="https://github.com/JeanPaul-P.png" type="image/png">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #f7f9fc;
-      color: #333;
-    }
-    h1 {
-      margin: 0;
-      font-size: 2.2em;
-      font-weight: bold;
-      color: white;
-      text-align: center;
-    }
-    h2 {
-      color: #192578;
-    }
-    header {
-      background-color: #192578;
-      padding: 2em 1em;
-    }
-    main {
-      padding: 2em;
-    }
-    a {
-      color: #192578;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-    iframe {
-      border: 1px solid #ccc;
-      border-radius: 8px;
-      width: 100%;
-      max-width: 1000px;
-      height: 600px;
-    }
-    footer {
-      margin-top: 2em;
-      text-align: center;
-      font-size: 0.9em;
-      color: #555;
-    }
-    .button {
-      display: inline-block;
-      background-color: #192578;
-      color: white;
-      padding: 0.5em 1em;
-      margin-top: 1em;
-      border-radius: 6px;
-      text-decoration: none;
-    }
-    .button:hover {
-      background-color: #0f1a56;
-    }
+    body { font-family: 'Inter', sans-serif; margin:0; background:#f7f9fc; color:#333; line-height:1.6; }
+    header { background: linear-gradient(135deg, #192578, #0f1a56); color:white; padding:3em 1em; text-align:center; }
+    header h1 { margin:0; font-size:2.3em; }
+    main { max-width: 1200px; margin:auto; padding:2em 1.5em; }
+    h2 { color:#192578; margin-top:1.5em; }
+    .card { background:#fff; border-radius:12px; padding:1.5em; margin-bottom:2em; box-shadow:0 3px 8px rgba(0,0,0,0.1); }
+    iframe { width:100%; height:650px; border:none; border-radius:8px; }
+    img { width:100%; max-width:1100px; border-radius:8px; margin-bottom:1.5em; box-shadow:0 2px 8px rgba(0,0,0,0.08); }
+    .button { display:inline-block; background:#192578; color:white; padding:0.6em 1.2em; border-radius:6px; text-decoration:none; font-weight:600; margin-top:1em; }
+    .button:hover { background:#0f1a56; }
+    footer { text-align:center; padding:2em 1em; font-size:0.9em; color:#555; background:#f1f3f7; margin-top:3em; }
   </style>
 </head>
 <body>
   <header>
-    <h1>Sales data analysis with SQL and Power BI</h1>
+    <h1>Sales Data Analysis – SQL & Power BI</h1>
   </header>
 
   <main>
-    <section>
+    <section class="card">
       <h2>🎯 Objectifs du projet</h2>
-      <p>
-        Ce projet illustre ma capacité à concevoir et structurer un rapport Power BI interactif
-        pour analyser la performance commerciale. L'objectif est de permettre aux décideurs de
-        suivre les ventes, identifier les tendances et détecter les opportunités d'amélioration.
-      </p>
-      <h3>❓ Problématiques abordées</h3>
+      <p>Ce projet illustre ma capacité à concevoir un rapport Power BI interactif 
+        pour analyser la performance commerciale...</p>
+    </section>
+
+    <section class="card">
+      <h2>🔍</h2>
       <ul>
         <li>Analyser les ventes par produit et catégorie.</li>
         <li>Suivre les marges et la rentabilité par segment.</li>
@@ -85,53 +41,36 @@
       </ul>
     </section>
 
-    <section>
+    <section class="card">
+      <h2>❓ Problématiques</h2>
+      <p>How can we build a reliable and synthetic indicator to assess and compare a company's credit risk...?</p>
+    </section>
+
+    <section class="card">
       <h2>📊 Dashboard interactif</h2>
-      <p>Consultez le rapport Power BI directement ci-dessous :</p>
-
-      <div style="text-align: center;">
-        <iframe title="Rapport Power BI - Analyse des ventes"
-          src="https://app.powerbi.com/reportEmbed?reportId=709706a7-6cff-4977-b354-7574a7e57940&autoAuth=true&ctid=6d2125de-5b5a-4aa1-97af-4578661dffdb"
-          style="width: 90%; max-width: 1200px; height: 700px; border: 1px solid #ccc; border-radius: 8px;"
-          frameborder="0" allowFullScreen="true">
-        </iframe>
-      </div>
+      <iframe src="https://app.powerbi.com/reportEmbed?reportId=709706a7-6cff-4977-b354-7574a7e57940&autoAuth=true&ctid=6d2125de-5b5a-4aa1-97af-4578661dffdb" allowfullscreen="true"></iframe>
     </section>
-    
-    <section>
-      <h2>🖼️ Captures d’écran du dashboard</h2>
-      <p>Voici quelques aperçus du tableau de bord Power BI pour consultation hors ligne :</p>
-    
-      <div style="text-align: center;">
-        <img src="https://jeanpaul-p.github.io/Portfolio-data-analyst/projet-rentabilite-produit/Screenshots/Capture_product.png"
-          alt="Capture Product" style="width: 90%; max-width: 1200px; margin-bottom: 2em; border: 1px solid #ccc; border-radius: 8px;">
 
-        <img src="https://jeanpaul-p.github.io/Portfolio-data-analyst/projet-rentabilite-produit/Screenshots/Capture_Product_Bikes.png"
-          alt="Capture Product_Bikes" style="width: 90%; max-width: 1200px; margin-bottom: 2em; border: 1px solid #ccc; border-radius: 8px;">
-
-        <img src="https://jeanpaul-p.github.io/Portfolio-data-analyst/projet-rentabilite-produit/Screenshots/Capture_Profitability.png" 
-          alt="Rentabilité" style="width: 90%; max-width: 1200px; margin-bottom: 2em; border: 1px solid #ccc; border-radius: 8px;">
-
-        <img src="https://jeanpaul-p.github.io/Portfolio-data-analyst/projet-rentabilite-produit/Screenshots/Capture_Temporal.png" 
-          alt="Vue temporelle" style="width: 90%; max-width: 1200px; margin-bottom: 2em; border: 1px solid #ccc; border-radius: 8px;">
-      </div>
+    <section class="card">
+      <h2>📸 Images</h2>
+      <img src="Screenshots/Capture_product.png" alt="Product view">
+      <img src="Screenshots/Capture_Product_Bikes.png" alt="Bikes analysis">
+      <img src="Screenshots/Capture_ProfitabilityNew.png" alt="Profitability analysis">
+      <img src="Screenshots/Capture_Temp.png" alt="Temporal view">
     </section>
-    
-    <section>
+
+    <section class="card">
       <h2>📂 Fichiers du projet</h2>
-      <ul>
-        <li><a href="https://github.com/JeanPaul-P/Portfolio-data-analyst/tree/main/projet-rentabilite-produit/sql" target="_blank" rel="noopener noreferrer">Script SQL</a></li>
-      </ul>
+      <a class="button" href="https://github.com/JeanPaul-P/Portfolio-data-analyst/tree/main/projet-rentabilite-produit/sql" target="_blank">SQL Scripts</a>
     </section>
 
     <section>
-      <a class="button" href="https://github.com/JeanPaul-P/Portfolio-data-analyst/tree/main/projet-rentabilite-produit" target="_blank" rel="noopener noreferrer">Voir sur GitHub</a>
+      <a class="button" href="../index.html">⬅ Retour à l'accueil</a>
     </section>
   </main>
 
   <footer>
-    <hr>
-    <p>© 2025 – Jean-Paul POKAME | Technical project – Data Analysis </p>
+    <p>© 2025 – Jean-Paul POKAME | Project – Sales Analysis</p>
   </footer>
 </body>
 </html>
