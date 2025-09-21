@@ -2,118 +2,53 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
-  <title>Portfolio – Jean-Paul POKAME</title>
-  <link rel="icon" href="https://github.com/JeanPaul-P.png" type="image/png">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Data Analyst</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <style>
-    body {
-      font-family: 'Inter', sans-serif;
-      margin: 0;
-      background-color: #f7f9fc;
-      color: #333;
-      line-height: 1.6;
-    }
-    header {
-      background: linear-gradient(135deg, #192578, #0f1a56);
-      color: white;
-      text-align: center;
-      padding: 3em 1em;
-    }
-    header h1 {
-      font-size: 2.5em;
-      margin: 0.2em 0;
-    }
-    header p {
-      max-width: 700px;
-      margin: auto;
-      font-size: 1.1em;
-    }
-    nav {
-      margin-top: 1.5em;
-    }
-    nav a {
-      color: white;
-      text-decoration: none;
-      margin: 0 1em;
-      font-weight: 600;
-      transition: opacity 0.3s ease;
-    }
-    nav a:hover { opacity: 0.8; }
-
-    .projects {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-      gap: 2em;
-      max-width: 1200px;
-      margin: auto;
-      padding: 3em 1.5em;
-    }
-    .project-card {
-      background: #fff;
-      border-radius: 12px;
-      padding: 2em;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
-      transition: transform 0.3s ease, box-shadow 0.3s ease;
-    }
-    .project-card:hover {
-      transform: translateY(-8px);
-      box-shadow: 0 8px 20px rgba(0,0,0,0.15);
-    }
-    .project-card h2 {
-      color: #192578;
-      margin-top: 0;
-    }
-    .button {
-      display: inline-block;
-      margin-top: 1em;
-      background-color: #192578;
-      color: white;
-      padding: 0.6em 1.2em;
-      border-radius: 6px;
-      text-decoration: none;
-      font-weight: 600;
-      transition: background 0.3s ease;
-    }
-    .button:hover {
-      background-color: #0f1a56;
-    }
-    footer {
-      text-align: center;
-      padding: 2em 1em;
-      font-size: 0.9em;
-      color: #555;
-      background: #f1f3f7;
-      margin-top: 3em;
-    }
+    * {margin: 0; padding: 0; box-sizing: border-box; font-family: "Poppins", sans-serif;}
+    body {background: #f5f6fa; color: #333; line-height: 1.6;}
+    header {background: #192578; color: #fff; padding: 1em 2em; display: flex; justify-content: space-between; align-items: center;}
+    header h1 {font-size: 1.4rem;}
+    header nav a {color: #fff; margin-left: 1em; text-decoration: none; font-weight: 500; transition: color 0.3s; padding: 0.6em 1.2em; border-radius: 6px; background: #192578;}
+    header nav a:hover {background: #F4A261; color: #fff;}
+    main {max-width: 1200px; margin: auto; padding: 2em;}
+    .projects {display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 2em;}
+    .project-card {background: #fff; border-radius: 12px; padding: 2em; box-shadow: 0 4px 12px rgba(0,0,0,0.08); transition: transform 0.3s ease, box-shadow 0.3s ease;}
+    .project-card:hover {transform: translateY(-8px); box-shadow: 0 8px 20px rgba(0,0,0,0.15);}
+    .project-card h2 {margin-bottom: 0.5em; color: #192578;}
+    .button {display: inline-block; background: #192578; color: #fff; padding: 0.6em 1.2em; border-radius: 6px; text-decoration: none; font-weight: 500; transition: background 0.3s;}
+    .button:hover {background: #F4A261;}
+    footer {text-align: center; padding: 1.5em; background: #192578; color: #fff; margin-top: 2em; font-size: 0.9rem;}
   </style>
 </head>
 <body>
+  <!-- HEADER -->
   <header>
-    <h1>Portfolio – Jean-Paul POKAME</h1>
-    <p>Data Analyst | Power BI | Python | SQL | Data visualization | 📊 Aide à la prise de décisions stratégiques & automatisation</p>
+    <h1>Portfolio - Data Analyst</h1>
     <nav>
-      <a href="index.html">Accueil</a>
-      <a href="#projets">Projets</a>
-      <a href="https://www.linkedin.com/in/jean-paul-pokame-2257ab1ab/" target="_blank">LinkedIn</a>
+      <a href="https://www.linkedin.com/in/ton-profil" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
     </nav>
   </header>
 
-  <main id="projets" class="projects">
+  <!-- ACCUEIL -->
+  <main class="projects">
     <div class="project-card">
       <h2>📌 Projet Notation Crédit</h2>
-      <p>Analyse et évaluation du risque de crédit des entreprises via Excel, Python et Power BI.</p>
+      <p>Analyse et évaluation du risque de crédit avec Excel, Python et Power BI.</p>
       <a class="button" href="projet-notation-credit/index.html">Voir le projet</a>
     </div>
 
     <div class="project-card">
       <h2>📌 Projet Analyse des ventes</h2>
-      <p>Conception d’un tableau de bord interactif pour suivre la performance commerciale (SQL et Power BI).</p>
+      <p>Tableau de bord interactif pour suivre la performance commerciale (SQL + Power BI).</p>
       <a class="button" href="projet-rentabilite-produit/index.html">Voir le projet</a>
     </div>
   </main>
 
+  <!-- FOOTER -->
   <footer>
-    <p>© 2025 – Jean-Paul POKAME | Portfolio Data Analysis – Made on GitHub Pages</p>
+    <p>© 2025 – Jean-Paul POKAME | Portfolio Data Analysis</p>
   </footer>
 </body>
 </html>
