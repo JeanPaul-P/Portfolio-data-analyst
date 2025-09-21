@@ -3,77 +3,63 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Projet Notation Crédit</title>
+  <title>Projet Analyse des ventes</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <style>
-    * {margin: 0; padding: 0; box-sizing: border-box; font-family: "Poppins", sans-serif;}
-    body {background: #f5f6fa; color: #333; line-height: 1.6;}
-    header {background: #192578; color: #fff; padding: 1em 2em; display: flex; justify-content: space-between; align-items: center;}
-    header h1 {font-size: 1.4rem;}
-    header nav a {color: #fff; margin-left: 1em; text-decoration: none; font-weight: 500; transition: color 0.3s; padding: 0.6em 1.2em; border-radius: 6px; background: #192578;}
-    header nav a:hover {background: #F4A261; color: #fff;}
-    main {max-width: 1200px; margin: auto; padding: 2em;}
-    .card {background: #fff; border-radius: 12px; padding: 2em; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin-bottom: 2em;}
-    .card h2 {margin-bottom: 0.5em; color: #192578;}
-    iframe {border: 1px solid #ccc; border-radius: 8px; width: 100%; height: 500px;}
-    footer {text-align: center; padding: 1.5em; background: #192578; color: #fff; margin-top: 2em; font-size: 0.9rem;}
+    * {margin:0; padding:0; box-sizing:border-box; font-family:"Poppins", sans-serif;}
+    body {background:#f5f6fa; color:#333; line-height:1.6;}
+    header {background:#192578; color:#fff; padding:2em 1em; text-align:center;}
+    header h1 {font-size:2.5rem; margin-bottom:0.5em;}
+    header nav a {color:#fff; text-decoration:none; font-weight:500; transition:background 0.3s; padding:0.6em 1.2em; border-radius:6px; background:#192578;}
+    header nav a:hover {background:#F4A261;}
+    main {max-width:1200px; margin:auto; padding:2em;}
+    .card {background:#fff; border-radius:12px; padding:2em; box-shadow:0 4px 12px rgba(0,0,0,0.08); margin-bottom:2em;}
+    .card h2 {margin-bottom:0.5em; color:#192578;}
+    iframe, .card img {border:1px solid #ccc; border-radius:8px; width:100%; max-width:1000px; height:500px; display:block; margin:1em auto;}
+    .button {display:inline-block; background:#192578; color:#fff; padding:0.6em 1.2em; border-radius:6px; text-decoration:none; font-weight:500; transition:background 0.3s;}
+    .button:hover {background:#F4A261;}
+    footer {text-align:center; padding:1.5em; background:#192578; color:#fff; font-size:0.9rem; margin-top:2em;}
   </style>
 </head>
 <body>
-  
-    <header>
-    <h1>Project credit notation</h1>
+  <header>
+    <h1>Projet Analyse des ventes</h1>
     <nav>
-      <a href="../index.html"><i class="fas fa-home"></i> Back home</a>
+      <a href="../index.html"><i class="fas fa-home"></i> Retour à l'accueil</a>
     </nav>
   </header>
 
   <main>
     <section class="card">
-      <h2>🎯 Project goals</h2>
-      <p>This project analyzes and anticipates corporate credit risk using the "Corporate Credit Rating with Financial Ratios" dataset...</p>
+      <h2>🎯 Objectifs</h2>
+      <p>Concevoir un tableau de bord interactif pour analyser la performance commerciale et la rentabilité par produit.</p>
     </section>
 
     <section class="card">
-      <h2>🔍 Project Issues</h2>
-      <ul>
-        <li>Analyze factors influencing company credit rating.</li>
-        <li>Identify companies with high risk of default.</li>
-        <li>Create a custom risk score based on financial ratios.</li>
-        <li>Monitor risk evolution over time.</li>
-      </ul>
-    </section>
-
-    <section class="card">
-      <h2>❓ Problem Statement</h2>
-      <p>How can we build a reliable and synthetic indicator to assess and compare a company's credit risk...?</p>
-    </section>
-
-    <section class="card">
-      <h2>📊 Power BI Dashboard</h2>
-      <iframe src="https://app.powerbi.com/reportEmbed?reportId=912e0617-553e-4725-b0e5-5c203dfe16ad&autoAuth=true&ctid=6d2125de-5b5a-4aa1-97af-4578661dffdb" allowfullscreen="true"></iframe>
+      <h2>📊 Dashboard Power BI</h2>
+      <iframe src="https://app.powerbi.com/reportEmbed?reportId=709706a7-6cff-4977-b354-7574a7e57940&autoAuth=true&ctid=6d2125de-5b5a-4aa1-97af-4578661dffdb" allowfullscreen="true"></iframe>
     </section>
 
     <section class="card">
       <h2>📸 Screenshots</h2>
-      <img src="Screenshots/Capture_Company.png" alt="Company analysis">
-      <img src="Screenshots/Capture_Sector.png" alt="Sector analysis">
-      <img src="Screenshots/Capture_Sector_Microsoft.png" alt="Microsoft sector view">
-      <img src="Screenshots/Capture_Informations.png" alt="Informations and filters">
+      <img src="Screenshots/Capture_product.png" alt="Product view">
+      <img src="Screenshots/Capture_Product_Bikes.png" alt="Bikes analysis">
+      <img src="Screenshots/Capture_ProfitabilityNew.png" alt="Profitability analysis">
+      <img src="Screenshots/Capture_Temp.png" alt="Temporal view">
     </section>
 
     <section class="card">
-      <h2>📂 Project files</h2>
-      <a class="button" href="https://github.com/JeanPaul-P/Portfolio-data-analyst/tree/main/projet-notation-credit/python" target="_blank">Python scripts</a>
+      <h2>📂 Fichiers du projet</h2>
+      <a class="button" href="https://github.com/JeanPaul-P/Portfolio-data-analyst/tree/main/projet-rentabilite-produit/sql" target="_blank">SQL Scripts</a>
     </section>
 
-    <section>
-      <a class="button" href="../index.html">⬅ Home</a>
+    <section style="text-align:center;">
+      <a class="button" href="../index.html">⬅ Retour à l'accueil</a>
     </section>
   </main>
 
   <footer>
-    <p>© 2025 – Jean-Paul POKAME | Project – Credit Risk Analysis</p>
+    <p>© 2025 – Jean-Paul POKAME | Project – Sales Analysis</p>
   </footer>
 </body>
 </html>
