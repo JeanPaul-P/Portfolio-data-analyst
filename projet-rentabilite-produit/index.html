@@ -1,15 +1,16 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Projet Analyse des ventes</title>
+  <title>Sales Analysis Project</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <style>
     * {margin:0; padding:0; box-sizing:border-box; font-family:"Poppins", sans-serif;}
     body {background:#f5f6fa; color:#333; line-height:1.6;}
-    header {background:#192578; color:#fff; padding:2em 1em; text-align:center;}
-    header h1 {font-size:2.5rem; margin-bottom:0.5em;}
+    header {background:#192578; color:#fff; padding:2em 1em; position:relative;}
+    header h1 {font-size:2.5rem; text-align:center; margin-bottom:0.5em;}
+    header nav {position:absolute; left:1em; top:50%; transform:translateY(-50%);}
     header nav a {color:#fff; text-decoration:none; font-weight:500; transition:background 0.3s; padding:0.6em 1.2em; border-radius:6px; background:#192578;}
     header nav a:hover {background:#F4A261;}
     main {max-width:1200px; margin:auto; padding:2em;}
@@ -23,41 +24,41 @@
 </head>
 <body>
   <header>
-    <h1>Projet Analyse des ventes</h1>
+    <h1>Sales Analysis Project</h1>
     <nav>
-      <a href="../index.html"><i class="fas fa-home"></i> Accueil</a>
+      <a href="../index.html"><i class="fas fa-home"></i> Home</a>
     </nav>
   </header>
 
   <main>
     <section class="card">
-      <h2>🎯 Objectifs</h2>
-      <p>Ce projet illustre ma capacité à concevoir un tableau de bord Power BI interactif pour analyser la performance commerciale...</p>
+      <h2>🎯 Project Goals</h2>
+      <p>This project showcases my ability to design an interactive Power BI dashboard to analyze sales performance...</p>
     </section>
 
     <section class="card">
-      <h2>🔍 Etapes du projet</h2>
+      <h2>🔍 Project Steps</h2>
       <ul>
-        <li>Analyser les ventes par produit et catégorie.</li>
-        <li>Suivre les marges et la rentabilité par segment.</li>
-        <li>Identifier les produits à forte ou faible performance.</li>
-        <li>Mettre en place des indicateurs clés (KPI) pour le pilotage commercial.</li>
+        <li>Analyze sales by product and category.</li>
+        <li>Monitor margins and profitability by segment.</li>
+        <li>Identify high and low-performing products.</li>
+        <li>Implement key performance indicators (KPIs) to guide commercial decision-making.</li>
       </ul>
     </section>
 
     <section class="card">
-      <h2>❓ Problématique</h2>
-      <p>Comment concevoir un tableau de bord interactif dans Power BI qui permette aux décideurs de suivre les ventes, 
-        analyser la rentabilité produit et identifier les opportunités d’amélioration pour orienter la stratégie commerciale ?</p>
+      <h2>❓ Problem Statement</h2>
+      <p>How to design an interactive Power BI dashboard that enables decision-makers to track sales, 
+         analyze product profitability, and identify improvement opportunities to guide business strategy?</p>
     </section>
 
     <section class="card">
-      <h2>📊 Dashboard Power BI</h2>
+      <h2>📊 Power BI Dashboard</h2>
       <iframe src="https://app.powerbi.com/reportEmbed?reportId=709706a7-6cff-4977-b354-7574a7e57940&autoAuth=true&ctid=6d2125de-5b5a-4aa1-97af-4578661dffdb" allowfullscreen="true"></iframe>
     </section>
 
     <section class="card">
-      <h2>📸 Screenshots</h2>
+      <h2>📸 Pictures</h2>
       <img src="Screenshots/Capture_product.png" alt="Product view">
       <img src="Screenshots/Capture_Product_Bikes.png" alt="Bikes analysis">
       <img src="Screenshots/Capture_ProfitabilityNew.png" alt="Profitability analysis">
@@ -65,12 +66,12 @@
     </section>
 
     <section class="card">
-      <h2>📂 Fichiers du projet</h2>
+      <h2>📂 Project Files</h2>
       <a class="button" href="https://github.com/JeanPaul-P/Portfolio-data-analyst/tree/main/projet-rentabilite-produit/sql" target="_blank">SQL Scripts</a>
     </section>
 
     <section style="text-align:center;">
-      <a class="button" href="../index.html">⬅ Retour à l'accueil</a>
+      <a class="button" href="../index.html">⬅ Back to Home</a>
     </section>
   </main>
 
@@ -79,3 +80,4 @@
   </footer>
 </body>
 </html>
+
